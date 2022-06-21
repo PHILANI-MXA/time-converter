@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Converter</title>
+</head>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<link rel="stylesheet" href="/styles/style.css">
+
+<body>
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-2">
+
+
+
+            </div>
+            <div class="col-md-8 m-auto my-2 row d-flex justify-content-center text-center">
+                <h1>
+                    convert miuntes to seconds
+                </h1>
+
+
+                <label for="min">
+        Enter the value of minutes you want to convert:
+    </label>
+
+                <input type="number" id="min" placeholder="Enter the value of minutes you want to convert">
+                <br><br>
+
+
+
+                <button style="color: rgb(15, 128, 0);" onclick="searchElement() ">Calculate!</button>
+
+                <p>
+                    is equal to <span id="display"></span> seconds
+                </p>
+            </div>
+            <div class="col-md-2">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="/script/script.js "></script>
+
+</body>
+
+</html>
